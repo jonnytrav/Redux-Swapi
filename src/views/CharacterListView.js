@@ -6,9 +6,9 @@ import getCharacters from "../actions";
 // import actions
 
 class CharacterListView extends React.Component {
-  constructor() {
-    super();
-  }
+  // constructor() {
+  //   super();
+  // }
 
   componentDidMount() {
     this.props.getCharacters();
@@ -16,7 +16,7 @@ class CharacterListView extends React.Component {
 
   render() {
     if (this.props.fetching) {
-      console.log("FETCHINNN");
+      // console.log("FETCHINNN");
     }
     return (
       <div className="CharactersList_wrapper">
